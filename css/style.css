@@ -10,6 +10,7 @@
 body {
   display: flex;
   justify-content: center;
+  box-sizing: border-box;  
 }
 
 .container-register {
@@ -31,7 +32,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   width: 100%; /* 100% até 396px (max-width)*/
 }
 
@@ -45,7 +45,6 @@ body {
 .options-genre {
   display: flex;
   justify-content: space-between;
-
   width: 100%;
 }
 
@@ -53,7 +52,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%; /* neste caso o input ocupa até 396px */
-
   margin-bottom: 24px;
 }
 
@@ -70,14 +68,12 @@ body {
 .select {
   width: 100%; /* até 396px - valos do Form*/
   border: 1px solid #abb3a8;
-
   padding: 12px 14px;
 }
 
 .box-genre {
   display: flex;
   flex-direction: column;
-
   width: 100%;
 }
 
@@ -92,10 +88,8 @@ body {
 
 .checkbox-field {
   margin-right: 10px;
-
   min-width: 18px;
   min-height: 18px;
-
   border-radius: 0;
 }
 
