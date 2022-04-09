@@ -7,15 +7,11 @@
   font-family: "Roboto", sans-serif;
 }
 
-body {
+.container-register {
+  margin: 0 auto;
   display: flex;
   justify-content: center;
-  box-sizing: border-box;  
-}
-
-.container-register {
-  max-width: 396px;
-  width: 100%;
+  max-width: 396px; 
 }
 
 .container-login {
