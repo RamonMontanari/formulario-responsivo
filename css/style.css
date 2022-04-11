@@ -22,13 +22,19 @@ body {
 }
 
 .container-login {
+  margin: 0 5%;
+  display: flex;
+  justify-content: center;
   max-width: 515px;
-  width: 100%;
+
 }
 
 .container-recover {
+  margin: 0 10%;
+  display: flex;
+  justify-content: center;
   max-width: 396px;
-  width: 100%;
+
 }
 
 .form {
